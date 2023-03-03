@@ -12,6 +12,16 @@
         <Grid>
             <Image Source="/Views/wj-Y3dc9.jpeg"></Image>
         </Grid>
-        <Grid Grid.ColumnSpan="2"></Grid>
+        <Grid Grid.ColumnSpan="1" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+        </Grid>
     </Grid>
 </Window>
