@@ -1,4 +1,5 @@
-﻿using Prism.Mvvm;
+﻿using OpenCvSharp;
+using Prism.Mvvm;
 
 namespace opencv_csharp_wpf.ViewModels
 {
@@ -13,7 +14,7 @@ namespace opencv_csharp_wpf.ViewModels
 
         public MainWindowViewModel()
         {
-
+           
         }
     }
 }
