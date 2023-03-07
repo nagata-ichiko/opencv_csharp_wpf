@@ -21,6 +21,19 @@
                 <RowDefinition Height="1*"/>
             </Grid.RowDefinitions>
             <Button Content="Gray" Click="Button_Click" ></Button>
+            <StackPanel Grid.Row="1" VerticalAlignment="Center" Orientation="Horizontal">
+                <TextBox Text="{Binding redsliderValue}"></TextBox>
+                <Slider Value="{Binding redsliderValue}"></Slider>
+            </StackPanel>
+            <StackPanel Grid.Row="2" VerticalAlignment="Center"  Orientation="Horizontal">
+                <TextBox></TextBox>
+                <Slider ></Slider>
+            </StackPanel>
+            <StackPanel Grid.Row="3" VerticalAlignment="Center"  Orientation="Horizontal">
+                <TextBox></TextBox>
+                <Slider ></Slider>
+            </StackPanel>
+            
         </Grid>
     </Grid>
 </Window>
